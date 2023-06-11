@@ -53,7 +53,7 @@
 */
 
 #include "contiki.h"
-#include "net/ip/uip.h"
+#include "net/ipv6/uip.h"
 #include "net/ipv6/uip-ds6.h"
 #include "simple-udp.h"
 #include <stdio.h>
@@ -66,7 +66,6 @@
 #include "stdint.h"
 #include <stdlib.h>
 #include <stdbool.h>
-#include "net/ipv6/uip-ds6.h"
 #if CONTIKI_TARGET_SRF06_CC26XX
 #include "lib/newlib/syscalls.c" //Utilizado quando se usa malloc
 #endif
